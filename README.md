@@ -22,8 +22,7 @@ This is a weather chatbot built using Rasa, spacy and openweathermap API. It sup
 ## In Terminal
 1. open a terminal in `src`
 2. run `rasa shell`
-
-<insert image>
+![](media/terminal_demo.png)
 
 ## Through Localhost
 ### REST API with Postman
@@ -42,11 +41,13 @@ This is a weather chatbot built using Rasa, spacy and openweathermap API. It sup
 ### React-based Web Chatroom
 1. download the repository https://github.com/scalableminds/chatroom to a folder **outside** `src`
 2. in the `chatroom` folder, run `yarn install` 
-  - *if you encounter Python error, try (a) install Python 2.7 using Anaconda (b) set PYTHON env variable to the Python 2.7's Python.exe*
+  - *if you encounter Python error, try (a) install Python 2.7 using Anaconda (b) run `npm config set python "path\to\python2.7\Python.exe"`*
   - *if you encounter MSBuild error, try to remove `node-sass` from `package.json`*
   
 3. in `src` directory, run `rasa run --enable-api --cors "*"` to start rasa server and expose its REST API
 4. in the `chatroom` folder, run `yarn build` and `yarn serve`
 5. visit `http://localhost:8080/index.html` to interact with the chatbot
+
+![](media/chatroom_demo.png)
 
 *you may customize the chatbot color scheme and appearance in `chatroom/src/Chatroom.scss`*
