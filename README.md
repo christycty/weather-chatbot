@@ -22,7 +22,7 @@ This is a weather chatbot built using Rasa, spacy and openweathermap API. It sup
 ## In Terminal
 1. open a terminal in `src`
 2. run `rasa shell`
-![](media/terminal_demo.png)
+<img src="media/terminal_demo.png" width="50%">
 
 ## Through Localhost
 ### REST API with Postman
@@ -48,6 +48,6 @@ This is a weather chatbot built using Rasa, spacy and openweathermap API. It sup
 4. in the `chatroom` folder, run `yarn build` and `yarn serve`
 5. visit `http://localhost:8080/index.html` to interact with the chatbot
 
-![](media/chatroom_demo.png)
+<img src="media/terminal_demo.png" width="300px">
 
 *you may customize the chatbot color scheme and appearance in `chatroom/src/Chatroom.scss`*
