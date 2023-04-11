@@ -1,5 +1,5 @@
 # Introduction
-Weather chatbot built using RASA and openweather API
+This is a weather chatbot built using Rasa, spacy and openweathermap API. It supports the query of a city's current weather, typhoon signal and rainfall prediction. For example, user can ask "how's the weather in London?", and the chatbot returns the real-time weather information. 
 
 # Setup
 ## Install Required Dependencies
