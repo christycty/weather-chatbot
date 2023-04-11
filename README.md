@@ -22,7 +22,7 @@ This is a weather chatbot built using Rasa, spacy and openweathermap API. It sup
 ## In Terminal
 1. open a terminal in `src`
 2. run `rasa shell`
-<img src="media/terminal_demo.png" width="350px">
+<img src="media/terminal_demo.png" width="600px">
 
 ## Through Localhost
 ### REST API with Postman
